@@ -1,0 +1,34 @@
+{% extends "layout.html" %} {% block title %} Flack {% endblock %} {% block
+content %}
+<div class="my-2 p-1 text-center container"></div>
+<div class="container">
+  <div class="jumbotron">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6 col-lg-6">
+        <h4>Sign in to your workspace</h4>
+        <form class="border p-3 bg-light" action="/signin" method="POST">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              name="username"
+              placeholder="Enter Username"
+              autofocus
+              aria-describedby="userHelp"
+            />
+            <small id="userHelp" class="form-text text-muted"
+              >This username will be used to identify you on this site.</small
+            >
+          </div>
+          <button class="btn btn-info" type="submit">Sign In</button>
+        </form>
+      </div>
+      <!--container -->
+    </div>
+    <!--row -->
+  </div>
+  <!--col-->
+</div>
+<!--jumbotron-->
+{% endblock %}
