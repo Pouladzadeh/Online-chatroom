@@ -2,7 +2,7 @@
 
 ## Flack, a Chat Application
 
-This chatroom Flask like application allows users to sign up and create chat rooms.
+This chatroom slack-like application allows users to sign up and create chat rooms.
 
 How to use:
 
