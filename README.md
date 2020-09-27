@@ -14,4 +14,4 @@ How to use:
 - leave the group
 - logout
 
-This application uses Python flask and JavaScript(Socket.IO to communicate between clients and servers)
+This application uses python flask and JavaScript(Socket.IO to communicate between clients and servers)
